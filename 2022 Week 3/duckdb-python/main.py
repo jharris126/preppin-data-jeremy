@@ -11,41 +11,10 @@ def load_to_table():
 
 
 def transform_and_write():
-    # sql to perform the data prep laid out in the challenge
-    sql = '''
-        with grades_upv as (
-            select
-                "Student ID",
-                unnest(array['Maths', 'English', 'Spanish', 'Science', 'Art', 'History', 'Geography']) as "Subject",
-                unnest(array["Maths", "English", "Spanish", "Science", "Art", "History", "Geography"]) as "Score"
-            from grades
-        ),
-        
-        grades_summary as (
-            select
-                sum (
-                    case
-                        when "Score" >= 75 then 1
-                        else 0
-                    end
-                ) as "Passed Subjects",
-                round(avg("Score"), 1) as "Student's Avg Score",
-                "Student ID"
-            from grades_upv
-            group by "Student ID"
-        )
-        
-        select
-            gs."Passed Subjects",
-            gs."Student's Avg Score",
-            gs."Student ID",
-            r.Gender as "Gender"
-        from roster as r
-        inner join grades_summary as gs
-            on r."id" = gs."Student ID"
-    '''
+    # sql to perform the data prep, sql now stored in separate prep.sql file in this directory for improved clarity
+    sql = open('prep.sql', 'r').read()
 
-    # print tuple for testing
+    # print tuples for testing
     # print(conn.execute(sql).fetchall())
 
     # define output file name/path, sql to execute and export, and duckdb command to execute the sql

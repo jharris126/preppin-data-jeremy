@@ -12,7 +12,7 @@ def load_to_table():
 
 def transform_and_write():
     # sql to perform the data prep laid out in the challenge
-    sql = f'''
+    sql = '''
         with grades_upv as (
             select
                 "Student ID",

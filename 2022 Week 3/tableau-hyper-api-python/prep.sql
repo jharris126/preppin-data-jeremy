@@ -2,9 +2,18 @@
 with grades_upv as (
     select
         "Student ID",
-        unnest(array['Maths', 'English', 'Spanish', 'Science', 'Art', 'History', 'Geography']) as "Subject",
-        unnest(array["Maths", "English", "Spanish", "Science", "Art", "History", "Geography"]) as "Score"
+        "Subject",
+        "Score"
     from grades
+    cross join lateral ( values
+            ('Maths',"Maths"),
+            ('English', "English"),
+            ('Spanish', "Spanish"),
+            ('Science', "Science"),
+            ('Art', "Art"),
+            ('History', "History"),
+            ('Geography', "Geography")
+    ) as u("Subject", "Score")
 ),
 
 -- calculate passing students per subject then count passing subjects and average scores per student

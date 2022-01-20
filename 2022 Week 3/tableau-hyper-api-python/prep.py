@@ -4,7 +4,7 @@ from tableauhyperapi import HyperProcess, Connection, CreateMode, TableDefinitio
 
 with HyperProcess(Telemetry.SEND_USAGE_DATA_TO_TABLEAU) as hyper:
     with Connection(
-            endpoint=hyper.endpoint, database='2022-3-output.hyper', create_mode=CreateMode.CREATE_AND_REPLACE
+        endpoint=hyper.endpoint, database='2022-3-output.hyper', create_mode=CreateMode.CREATE_AND_REPLACE
     ) as connection:
 
         roster_def = TableDefinition('roster', [
@@ -48,9 +48,5 @@ with HyperProcess(Telemetry.SEND_USAGE_DATA_TO_TABLEAU) as hyper:
         connection.execute_command(copy_roster)
         connection.execute_command(copy_grades)
 
-        # sql = 'create table "output" as ' + open('prep.sql', 'r').read()
-        # connection.execute_command(sql)
-
-        sql = open('prep.sql', 'r').read()
-        result = connection.execute_list_query(sql)
-        print(result)
+        sql = 'create table "output" as ' + open('prep.sql', 'r').read()
+        connection.execute_command(sql)

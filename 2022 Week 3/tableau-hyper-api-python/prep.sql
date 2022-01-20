@@ -1,15 +1,14 @@
 -- unpivot subjects from columns to rows (from 1 row per student to 1 row per student per subject)
---with grades_upv as (
+with grades_upv as (
     select
         "Student ID",
         unnest(array['Maths', 'English', 'Spanish', 'Science', 'Art', 'History', 'Geography']) as "Subject",
         unnest(array["Maths", "English", "Spanish", "Science", "Art", "History", "Geography"]) as "Score"
     from grades
-    where "Student ID" = 1
---),
+),
 
 -- calculate passing students per subject then count passing subjects and average scores per student
-/*grades_summary as (
+grades_summary as (
     select
         sum (
             case
@@ -31,4 +30,4 @@ select
     r.Gender as "Gender"
 from roster as r
 inner join grades_summary as gs
-    on r."id" = gs."Student ID"*/
+    on r."id" = gs."Student ID"

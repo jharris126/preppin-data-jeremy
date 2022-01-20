@@ -1,5 +1,6 @@
 import os
-from tableauhyperapi import HyperProcess, Connection, CreateMode, TableDefinition, SqlType, escape_string_literal, Telemetry
+from tableauhyperapi import HyperProcess, Connection, CreateMode, TableDefinition, SqlType, escape_string_literal,\
+    Telemetry
 
 
 with HyperProcess(Telemetry.SEND_USAGE_DATA_TO_TABLEAU) as hyper:

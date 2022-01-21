@@ -2,6 +2,10 @@
 Place to store, share, and version [Preppin Data Challenge](https://preppindata.blogspot.com/) Solutions
 
 ---
+## 2021 Week 52
+ - [Overview](https://github.com/jharris126/preppin-data-jeremy/tree/main/2021%20Week%2052)
+ - Tools Used
+   - [Pandas + DuckDB - Python](https://github.com/jharris126/preppin-data-jeremy/tree/main/2021%20Week%2052/duckdb-python)
 
 ## 2022 Week 1
  - [Overview](https://github.com/jharris126/preppin-data-jeremy/tree/main/2022%20Week%201)

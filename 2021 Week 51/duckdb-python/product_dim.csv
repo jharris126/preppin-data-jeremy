@@ -1,0 +1,61 @@
+ProductID,Category,Sub-Category,Product Name,Unit Price,First Sold
+1,Office Supplies,Art,Post-its,3.33,2021-01-01
+2,Office Supplies,Storage,Stacking Storage Drawers,43.26,2021-01-01
+3,Office Supplies,Paper,Xerox 1979,6.45,2021-01-01
+4,Office Supplies,Paper,Xerox 208,7.14,2021-01-01
+5,Furniture,Furnishings,Desk Lamp Bulbs,10.00,2021-01-02
+6,Technology,Phones,Fast-charging Portable Charger,15.64,2021-01-02
+7,Technology,Accessories,PC Headset,45.89,2021-01-02
+8,Office Supplies,Paper,Parchment Paper,2.65,2021-01-02
+9,Office Supplies,Fasteners,Push Pins,2.69,2021-01-02
+10,Office Supplies,Fasteners,Rubber Bands,4.87,2021-01-02
+11,Office Supplies,Labels,Colour-Coded Labels,9.99,2021-01-03
+12,Technology,Phones,Panasonic KX-TG9471B,397.54,2021-01-03
+13,Technology,Phones,Bluetooth Headset,86.99,2021-01-07
+14,Furniture,Bookcases,Bookcase,60.07,2021-01-07
+15,Office Supplies,Envelopes,Coloured Envelopes,5.50,2021-01-07
+16,Office Supplies,Appliances,Microwave,104.58,2021-01-07
+17,Technology,Phones,Motorola L703CM,356.99,2021-01-07
+18,Technology,Phones,Panasonic Kx-TS550,657.55,2021-01-07
+19,Office Supplies,Appliances,Refrigerator,897.65,2021-01-07
+20,Furniture,Tables,Round Conference Table,562.90,2021-01-07
+21,Office Supplies,Paper,Xerox 1974,5.99,2021-01-08
+22,Technology,Accessories,USB Wired Mouse,5.99,2021-01-09
+23,Technology,Phones,Samsung Galaxy Note 2,809.56,2021-01-12
+24,Office Supplies,Paper,Xerox 1951,5.67,2021-01-12
+25,Furniture,Tables,Laminate Occasional Tables,464.29,2021-01-13
+26,Technology,Phones,Motorola L804,459.67,2021-01-13
+27,Technology,Phones,Panasonic KX TS3282W Corded phone,297.50,2021-01-13
+28,Office Supplies,Labels,Permanent Self-Adhesive File Folder Labels,7.80,2021-01-13
+29,Furniture,Chairs,Task/Swivel Chairs,43.29,2021-01-13
+30,Office Supplies,Paper,Xerox 1933,3.97,2021-01-13
+31,Furniture,Chairs,Armless Task Chair,37.75,2021-01-14
+32,Furniture,Furnishings,Desk Lamp,19.99,2021-01-14
+33,Technology,Accessories,Keyboard,19.94,2021-01-14
+34,Office Supplies,Storage,Lockers,89.97,2021-01-14
+35,Furniture,Chairs,Operator's Chair,20.87,2021-01-14
+36,Furniture,Furnishings,Round Wall Clock,8.80,2021-01-14
+37,Furniture,Tables,Solid Wood Round Tables,264.46,2021-01-14
+38,Office Supplies,Paper,Xerox 1925,2.80,2021-01-14
+39,Office Supplies,Paper,Xerox 200,6.52,2021-01-14
+40,Office Supplies,Paper,Xerox 219,7.50,2021-01-14
+41,Office Supplies,Appliances,Vaccuum,605.39,2021-01-15
+42,Technology,Machines,Videoconferencing Unit,168.76,2021-01-15
+43,Office Supplies,Paper,Xerox 1936,4.87,2021-01-16
+44,Office Supplies,Paper,Xerox 2000,6.89,2021-01-19
+45,Furniture,Chairs,Leather Highback Executive Chair,96.82,2021-01-20
+46,Office Supplies,Paper,Xerox 232,7.99,2021-01-20
+47,Furniture,Tables,Desk,125.33,2021-01-21
+48,Furniture,Furnishings,Stackable Tray,2.60,2021-01-21
+49,Office Supplies,Paper,Xerox 1901,2.65,2021-01-21
+50,Technology,Phones,Speakerphone,79.46,2021-01-22
+51,Office Supplies,Paper,Xerox 221,7.80,2021-01-22
+52,Technology,Machines,Shredder,65.49,2021-01-23
+53,Office Supplies,Art,Highlighters,2.69,2021-01-26
+54,Office Supplies,Paper,Xerox 1897,2.55,2021-01-26
+55,Office Supplies,Art,Pens,5.69,2021-01-27
+56,Technology,Phones,Panasonic KX T7731-B Digital phone,451.27,2021-01-29
+57,Furniture,Chairs,Folding Chairs,15.69,2021-01-30
+58,Technology,Machines,Printer,129.99,2021-01-30
+59,Office Supplies,Envelopes,White Envelopes,4.50,2021-01-30
+60,Office Supplies,Paper,Xerox 194,5.17,2021-02-05

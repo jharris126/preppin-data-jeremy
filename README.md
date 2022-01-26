@@ -31,3 +31,8 @@ Place to store, share, and version [Preppin Data Challenge](https://preppindata.
  - Tools Used
    - [DuckDB - Python](https://github.com/jharris126/preppin-data-jeremy/tree/main/2022%20Week%203/duckdb-python)
    - [Tableau Hyper API - Python](https://github.com/jharris126/preppin-data-jeremy/tree/main/2022%20Week%203/tableau-hyper-api-python)
+
+## 2022 Week 4
+ - [Overview](https://github.com/jharris126/preppin-data-jeremy/tree/main/2022%20Week%204)
+ - Tools Used
+   - [DuckDB - Python](https://github.com/jharris126/preppin-data-jeremy/tree/main/2022%20Week%204/duckdb-python)
